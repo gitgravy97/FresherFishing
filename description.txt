@@ -1,1 +1,1 @@
-Fresher Fishing is intended to give a Stardew-Style interface to the fishing mechanic
+Fresher Fishing is intended to give a toggleable Stardew-Style interface to the fishing mechanic. Eventually will also hopefully ensure it is Calamity-compatible.
