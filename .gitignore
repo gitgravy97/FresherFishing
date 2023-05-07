@@ -1,0 +1,20 @@
+﻿# Build Artifacts 'n Generated Files
+bin/
+obj/
+*.bak
+*.cache
+*.dll
+*.pdb
+
+# IDE Components
+*.idea
+
+# NuGet packages
+packages/
+*.nupkg
+
+# Logs
+*.log
+
+# User-specific files
+*.user

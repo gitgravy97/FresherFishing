@@ -1,0 +1,3 @@
+displayName = FresherFishing
+author = Surreal-McCoy
+version = 0.1
