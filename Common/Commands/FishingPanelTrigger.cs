@@ -1,4 +1,4 @@
-﻿using FresherFishing.Common.UI;
+﻿using FresherFishing.Common.Systems;
 using Terraria;
 using Terraria.ModLoader;
 
@@ -15,7 +15,8 @@ public class ChatTriggerFishingPanel : ModCommand
     // A short description of this command
     public override string Description => "test fishing ui setup";
 
-    public override void Action(CommandCaller caller, string input, string[] args) {
+    public override void Action(CommandCaller caller, string input, string[] args)
+    {
         Main.NewText("Triggered Fishing Test Command");
         ModContent.GetInstance<FishingUISystem>().ToggleFishingUI();
     }
