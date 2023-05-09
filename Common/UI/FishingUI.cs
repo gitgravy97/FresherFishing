@@ -17,7 +17,7 @@ public class FishingUIState : UIState
         // Container UI Element used to help manage placement of the pane
         // Placement written as an offset where top-left corner is (0,0)
         fishingPanel = new FishingPanel();
-        SetRectangle(fishingPanel, left: 400f, top: 100f, width: 170f, height: 70f);
+        SetRectangle(fishingPanel, 400f, 100f, 170f, 70f);
 
         // To add text to the panel
         // UIText testText = new UIText("yeehaw");
@@ -29,13 +29,13 @@ public class FishingUIState : UIState
         // We need to actually append that panel back to our UI State
         Append(fishingPanel);
     }
-    
+
     // Sets framing for parent element
-    private void SetRectangle(UIElement uiElement, float left, float top, float width, float height) {
+    private void SetRectangle(UIElement uiElement, float left, float top, float width, float height)
+    {
         uiElement.Left.Set(left, 0f);
         uiElement.Top.Set(top, 0f);
         uiElement.Width.Set(width, 0f);
         uiElement.Height.Set(height, 0f);
     }
-    
 }
